@@ -30,3 +30,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX3360 \
     SystemDevice=RE54ABL1 \
     SystemName=RMX3360
+
+#vanilla
+WITH_GMS := false
+
+#accord
+TARGET_INCLUDE_ACCORD := false
+
+#audio_fx
+TARGET_EXCLUDES_AUDIOFX := true
