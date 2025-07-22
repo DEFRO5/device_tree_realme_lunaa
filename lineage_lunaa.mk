@@ -39,3 +39,6 @@ TARGET_INCLUDE_ACCORD := false
 
 #audio_fx
 TARGET_EXCLUDES_AUDIOFX := true
+
+#camera
+PRODUCT_NO_CAMERA := false
