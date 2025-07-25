@@ -40,3 +40,6 @@ SOONG_CONFIG_OPLUS_LINEAGE_VIBRATOR_HAL_USE_EFFECT_STREAM := true
 
 # Include the proprietary files BoardConfig.
 include vendor/realme/lunaa/BoardConfigVendor.mk
+
+#sys props for About Phone Definitions
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
