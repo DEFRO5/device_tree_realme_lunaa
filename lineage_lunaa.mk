@@ -31,12 +31,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemDevice=RE54ABL1 \
     SystemName=RMX3360
 
-#vanilla
-WITH_GMS := false
+#Build maintainer
+INFINITY_BUILD_TYPE := UNOFFICIAL
 
-#accord
-TARGET_INCLUDE_ACCORD := false
-
-#audio_fx
-TARGET_EXCLUDES_AUDIOFX := true
-
+# Maintainer Name
+INFINITY_MAINTAINER := "Defalt47"

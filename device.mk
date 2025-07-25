@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage \
-    $(LOCAL_PATH)/overlay-evolution
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
@@ -76,3 +75,11 @@ $(call inherit-product, vendor/realme/lunaa/lunaa-vendor.mk)
 
 #oplus camera
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
+#sys props for About Phone Definitions
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.product.marketname=Realme GT Master Edition \
+    ro.infinity.soc=Snapdragon 778G \
+    ro.infinity.battery=4300 mAh \
+    ro.infinity.display=1080 x 2400, 120 Hz \
+    ro.infinity.camera=64 MP + 8 MP + 2 MP
