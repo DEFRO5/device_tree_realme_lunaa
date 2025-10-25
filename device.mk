@@ -80,3 +80,7 @@ $(call inherit-product, device/oneplus/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/lunaa/lunaa-vendor.mk)
+
+#Overlays
+$(LOCAL_PATH)/overlay-lineage \
+$(LOCAL_PATH)/overlay-evolution
